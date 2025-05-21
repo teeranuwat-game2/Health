@@ -14,7 +14,7 @@ public class ChildPatient extends Patient {
 
     @Override
     public void performCheckup() {
-        System.out.println("Performing checkup for child patient: " + name + ", Age: " + age + ", Weight: " + weight + ", Guardian: " + guardianName);
+        System.out.println("Performing checkup for child patient: " + name + ", Age: " + age + ", Weight: " + weight + ", Guardian: " + guardianName + "\n" + "======================\n");
         // Additional logic for child checkup
     }
 }

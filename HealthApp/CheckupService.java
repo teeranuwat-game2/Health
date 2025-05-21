@@ -1,4 +1,4 @@
 // interface CheckupService {
 public interface  CheckupService {
-    void performCheckup();
+    public void performCheckup();
 }

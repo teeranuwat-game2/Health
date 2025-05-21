@@ -1,4 +1,4 @@
-public abstract  class Patient implements CheckupService {
+public class Patient implements CheckupService {
     protected String name;
     protected int age;
     protected double weight;
@@ -13,6 +13,12 @@ public abstract  class Patient implements CheckupService {
         System.out.println("Patient Name: " + name);
         System.out.println("Patient Age: " + age);
         System.out.println("Patient Weight: " + weight);
+    }
+
+    @Override
+    public void performCheckup() {
+        System.out.println("Performing checkup for patient: " + name + ", Age: " + age + ", Weight: " + weight);
+        // Additional logic for checkup
     }
 
 }
